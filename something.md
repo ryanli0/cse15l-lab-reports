@@ -1,3 +1,3 @@
 test file
 
-[Link](https://ryanli0.github.io/cse15l-lab-reports/)
+[Link to Hello World](https://ryanli0.github.io/cse15l-lab-reports/)

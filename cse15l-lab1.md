@@ -1,4 +1,4 @@
-# Lab Report 1
+![Image](Purisma-2.png)
 
 <br>
 

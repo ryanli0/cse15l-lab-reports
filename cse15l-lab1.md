@@ -30,7 +30,7 @@
   [user@sahara ~]$ 
   ```
 ##### Working Directory: /home
-##### What command meant: Contatenate working directory but since no file could be read, command needed a manual break
+##### What command meant: Concatenate working directory but since no file could be read, command needed a manual break
 ##### Error?: No, but it would have caused the command to run forever, not allowing another command without a manual break
 
 <br>

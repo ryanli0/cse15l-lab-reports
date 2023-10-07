@@ -1,5 +1,6 @@
 # Lab Report 1
 
+<br>
 ## Share an example of using the commands with no arguments
 
 ### An example of cd command with no argument
@@ -29,6 +30,7 @@
   [user@sahara ~]$ 
   ```
 
+<br>
 ## Share an exmaple of using the command with a path to a directory as an argument.
 
 ### An example of cd command with a path to a directory as an argument
@@ -50,6 +52,8 @@
   cat: lecture1/messages: Is a directory
   [user@sahara ~]$ 
   ```
+
+<br>
 ## Share an example of using the command with a path to a file as an argument.
 
 ### An example of cd command with a path to a file as an argument

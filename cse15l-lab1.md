@@ -23,6 +23,13 @@
   ```
 </details>
 
+## An example of ls command with no argument</summary>
+  ```bash
+  [user@sahara ~]$ ls
+  lecture1
+  [user@sahara ~]$ 
+  ```
+
 <details>
   <summary>An example of cat command with no argument</summary>
   <br>

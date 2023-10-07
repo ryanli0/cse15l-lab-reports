@@ -7,8 +7,8 @@
   <br>
   
   ```bash
-    [user@sahara ~]$ cd
-    [user@sahara ~]$ 
+      [user@sahara ~]$ cd
+      [user@sahara ~]$
   ```
 </details>
 

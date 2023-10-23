@@ -1,5 +1,7 @@
 # Lab Report 2
 
+## Part 1
+
 ``` bash
 import java.io.IOException;
 import java.net.URI;
@@ -52,3 +54,24 @@ class StringServer {
 }
 
 ```
+
+![Image](Lab2Screenshot)
+
+##### This screenshot shows the output if the url "localhost:4000/add-message?s=Hello" is executed. It uses the handleRequest method to properly format the new line by giving it a number, a period, the message itself, and then a "\n" to prepare for another message. Without any message, the message "Empty message list!" is given.
+
+![Image](Lab2Screenshot2)
+
+##### This screenshot shows the output if the url "localhost:4000/add-message?s=How are you" is executed. As with the last message, it uses the handleRequest method to properly format the new line by giving it a number, a period, the message itself, and then a "\n" to prepare for another message.
+
+##### This URL is converted to "localhost:4000/add-message?s=How%20are%20you" to handle the spaces
+
+## Part 2
+
+##### Image of private key
+![Image](Lab2PrivateKey)
+
+##### Image of public key
+![Image](Lab2PublicKey)
+
+##### Image of login attempt without password
+![Image](Lab2Login)

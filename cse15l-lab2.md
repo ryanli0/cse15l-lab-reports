@@ -59,7 +59,7 @@ class StringServer {
 
 ##### This screenshot shows the output if the url "localhost:4000/add-message?s=Hello" is executed. It uses the handleRequest method to properly format the new line by giving it a number, a period, the message itself, and then a "\n" to prepare for another message. Without any message, the message "Empty message list!" is given.
 
-![Image](Lab2Screenshot2.jpg)
+![Image](Lab2Screnshot2.jpg)
 
 ##### This screenshot shows the output if the url "localhost:4000/add-message?s=How are you" is executed. As with the last message, it uses the handleRequest method to properly format the new line by giving it a number, a period, the message itself, and then a "\n" to prepare for another message.
 
@@ -68,7 +68,7 @@ class StringServer {
 ## Part 2
 
 ##### Image of private key
-![Image](Lab2PrivateKey.png)
+![Image](Lab2LocalKey.png)
 
 ##### Image of public key
 ![Image](Lab2PublicKey.png)

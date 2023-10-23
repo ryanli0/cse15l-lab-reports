@@ -75,3 +75,6 @@ class StringServer {
 
 ##### Image of login attempt without password
 ![Image](Lab2Login.png)
+
+## Part 3
+##### Something new that I learned in this lab was creating a new directory on a remote computer with the terminal, understanding the "url.getPath()" function, utilizing StringBuilder(), and that the GitHub error "Something went really wrong, and we can’t process that file." means that the file name is incorrect/incompatible with GitHub. Although this lab was much harder than the last one, after completing it, I feel like I have learned some lessons that I will take further into this class and the future. I'm becoming more familiar with navigating filestructures in terminal and was able to quickly navigate back to the right local directory after accidentally "cd"-ing on my own computer.

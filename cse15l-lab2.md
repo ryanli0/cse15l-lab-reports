@@ -68,7 +68,7 @@ class StringServer {
 ## Part 2
 
 ##### Image of private key
-![Image](Lab2LocalKeyNew.png)
+![Image](Lab2PrivateKeyNew.png)
 
 ##### Image of public key
 ![Image](Lab2PublicKeyNew.png)

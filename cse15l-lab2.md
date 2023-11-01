@@ -57,21 +57,21 @@ class StringServer {
 
 ![Image](Lab2Screenshot.jpg)
 
-##### This screenshot shows the output if the url "localhost:4000/add-message?s=Hello" is executed. It uses the handleRequest method to properly format the new line by giving it a number, a period, the message itself, and then a "\n" to prepare for another message. Without any message, the message "Empty message list!" is given.
+##### This screenshot shows the output if the url "localhost:4000/add-message?s=Hello" is executed. It uses the handleRequest method to properly format the new line by giving it a number, a period, the message itself, and then a "\n" to prepare for another message. Without any message, the message "Empty message list!" is given. In this case, the relevant arguments involve the handleRequest which takes in a url and separates it based on the path. In the case of just showing the messageList ArrayList, it takes in a "/" and creates a printed version of the messageList. The relevant fields change when messages are added and "add-message" is shown in the URL. The ArrayList is updated to show new information and contain messages that are passed into the URL.
 
 ![Image](Lab2Screnshot2.jpg)
 
-##### This screenshot shows the output if the url "localhost:4000/add-message?s=How are you" is executed. As with the last message, it uses the handleRequest method to properly format the new line by giving it a number, a period, the message itself, and then a "\n" to prepare for another message.
+##### This screenshot shows the output if the url "localhost:4000/add-message?s=How are you" is executed. As with the last message, it uses the handleRequest method to properly format the new line by giving it a number, a period, the message itself, and then a "\n" to prepare for another message. In this case, the relevant arguments are the parameters[0] and parameters[1] which find which part of the URL is the request and which part is the message itself. Again, the ArrayList is updated to show new information and contain messages that are passed into the URL.
 
 ##### This URL is converted to "localhost:4000/add-message?s=How%20are%20you" to handle the spaces
 
 ## Part 2
 
 ##### Image of private key
-![Image](Lab2LocalKey.png)
+![Image](Lab2LocalKeyNew.png)
 
 ##### Image of public key
-![Image](Lab2PublicKey.png)
+![Image](Lab2PublicKeyNew.png)
 
 ##### Image of login attempt without password
 ![Image](Lab2Login.png)

@@ -6,4 +6,4 @@ Hello, world!
 <br>
 [Lab 2](https://ryanli0.github.io/cse15l-lab-reports/cse15l-lab2.html)
 <br>
-[Lab 2](https://ryanli0.github.io/cse15l-lab-reports/cse15l-lab4.html)
+[Lab 4](https://ryanli0.github.io/cse15l-lab-reports/cse15l-lab4.html)

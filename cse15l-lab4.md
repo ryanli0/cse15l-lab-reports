@@ -55,4 +55,3 @@
 ```
 ![Image](Lab4Screenshot6.png)
 
-#### All in all, this process takes about a minute and a half

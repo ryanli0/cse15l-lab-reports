@@ -1,5 +1,5 @@
 # Lab Report 5
-### Original post
+## Original post
 
 #### John Smith | Dec 1, 2023 9:41am
 ##### Hey Everyone,
@@ -11,7 +11,7 @@
 
 ___
 
-### Response from TA
+## Response from TA
 
 #### John Appleseed | Dec 1, 2023 2:41pm
 ##### Hey John,
@@ -19,10 +19,35 @@ ___
 ##### Good luck!
 
 ___
-### Response from student
+## Response from student
 
-#### John Smith | Dec 1, 2023 9:41pm
+#### John Smith | Dec 1, 2023 5:41pm
 ##### I ran the program with the command you provided and everything worked as intended! I put a screenshot below:
 ##### ![Image](Lab5Success.png)
 ##### So after isolating the issue, it does seem to be coming from the bash script itself. I've been trying to figure it out, but just in case you have any suggestions, I put the bash script below:
 ##### ![Image](Lab5Bash.png)
+
+---
+## Detailed Bug Report
+
+#### File and directory structure
+```bash
+lab5
+  LineNumber.java
+  LineNumber.class
+  run.sh
+```
+#### Contents of relevant file before fixing bug
+```bash
+javac LineNumber.java
+javac LineNumber $1
+```
+#### Command line to trigger bug
+```bash
+bash run.sh #This caused the bug in rush.sh to prevent proper function
+```
+#### How to fix bug
+##### On line 2 of run.sh, instead of 'java' to run the class, it says 'javac' which tries to recompile with an argument which doesn't work
+
+## Reflection
+##### I learned a lot more in this second half after I got through some initial roadblocks of not knowing what was happening in the class. After fixing some bad habits and keeping up with the material, I feel as though I have a much better understanding of what this class is intended on teaching its students. I'm much more comfortable with terminal and git. Terminal and the accessibility of git changed my perspective on the interconnectedness of computers. I don't recall a specific thing I learned, but I just overall feel much more comfortable having taken this class. I obviously have much more to learn, but I wouldn't be opposed to learning some things in my free time now that I understand more about Github.

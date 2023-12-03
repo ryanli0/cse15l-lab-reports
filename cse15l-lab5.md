@@ -5,7 +5,7 @@
 ##### Hey Everyone,
 ##### I'm stuck trying to figure out this bug that is displayed in the screenshot below. I can't seem to figure out how to resolve it. I've been working on a Java program that reads a text file and prints each line with line numbers. I wrote a Bash script to compile and run the program, but the output isn't what I expected. Instead of numbering the lines, it just prints the contents of the file without any numbers.
 ##### Below is a screenshot of the output I'm getting:
-##### ![Image](Lab5Bug.png)
+##### ![Image](Lab5BugFixed.png)
 ##### I think the issue might be with the way I'm reading the file in Java, or maybe how I'm passing the filename to the Java program in the Bash script. I'm using the command `bash run.sh test.txt` to run the script.
 ##### Any help would be greatly appreciated!
 
@@ -23,9 +23,9 @@ ___
 
 #### John Smith | Dec 1, 2023 5:41pm
 ##### I ran the program with the command you provided and everything worked as intended! I put a screenshot below:
-##### ![Image](Lab5Success.png)
+##### ![Image](Lab5SuccessFixed.png)
 ##### So after isolating the issue, it does seem to be coming from the bash script itself. I've been trying to figure it out, but just in case you have any suggestions, I put the bash script below:
-##### ![Image](Lab5Bash.png)
+##### ![Image](Lab5BashFixed.png)
 
 ---
 ## Detailed Bug Report

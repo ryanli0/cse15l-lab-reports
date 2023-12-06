@@ -155,6 +155,12 @@ ryanli@Ryans-MacBook-Pro docsearch % grep -w -r "pot" ./technical/*
 ```
 
 ##### A command such as this is very powerful because it's able to find only the phrase given. In the case of platypus, it doesn't matter that much since it's a fairly unique word, but with something such as pot (potentially a part of many words such as potential, hypothesis, spot, etc) it can be more useful. Again, this used the "-r" command to search through the files within the ./technical directory
+___
+## Citations
+### ChatGPT
+##### Prompt: Give me a few examples of how I can alternatively use the grep command
+
+##### Second Prompt: Give me a few more 
 
 
 

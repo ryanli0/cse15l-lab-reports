@@ -159,8 +159,10 @@ ___
 ## Citations
 ### ChatGPT
 ##### Prompt: Give me a few examples of how I can alternatively use the grep command
-
-##### Second Prompt: Give me a few more 
+![Image](GPTss1.png)
+![Image](GPTss2.png)
+![Image](GPTss3.png)
+![Image](GPTss4.png)
 
 
 
